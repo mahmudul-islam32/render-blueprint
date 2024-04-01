@@ -6,6 +6,7 @@ services:
     buildCommand: npm run build
     staticPublishPath: ./build
     pullRequestPreviewsEnabled: true # Enable service previews
+    rootDir: my-react-app
     headers:
       - path: /*
         name: X-Frame-Options
