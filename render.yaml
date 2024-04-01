@@ -2,7 +2,7 @@
   - type: web
     name: my-blog
     runtime: static
-    buildCommand: yarn build
+    buildCommand: npm run build
     staticPublishPath: ./build
     pullRequestPreviewsEnabled: true # Enable service previews
     buildFilter:
